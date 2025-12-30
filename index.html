@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gian H.</title>
+    
+</head>
+
+<body>
+    
+   
+<div id="intro">
+    <img src="giannis.jpeg" alt="Gian Luis Huyag">
+    <h1>Hi there!!</h1>
+    <h1>I'm Gian Luis D. Huyag</h1>
+    <p>This is my portfolio</p>
+    <button onclick="enterSite()">Click to Continue</button>
+</div>
+
+
+
+
+    <nav class="navbar">
+    <a href="#about">About Me</a>
+    <a href="#hobbies">Hobbies</a>
+    <a href="#favorite">Favorite Food</a>
+    <a href="#projects">Projects</a>
+    <a href="#badges">Badges</a>
+    <a href="#contact">Contact</a>
+    </nav>
+
+
+
+    <header class="hey">
+<h1 style = "font-family: Georgia, 'Times New Roman', Times, serif;">   
+    My Portfolio
+</h1>
+<hr>
+<p style="font-family: Georgia, 'Times New Roman', Times, serif;">1st year student of BS in Information and Technology at LSPU-SPCC. </p>
+<hr>
+</header>
+
+<section class="bron" id="about"> 
+   
+ <img src="giannis.jpeg" alt="HUYAG, GIAN LUIS" width = 250px >
+ 
+
+ <h2>About Me</h2>
+  <p>
+        Hello! My name is <strong>Gian Luis D. Huyag</strong>.
+        I am a 1st year student taking up
+        <strong>Bachelor of Science in Information Technology</strong>
+        at <strong>LSPU – San Pablo City Campus</strong>.
+    </p>
+
+    <p>
+        I live in <strong>San Pablo City, Laguna</strong>.
+        I am interested in learning more about
+        programming, web development, and technology.
+    </p>
+
+    <p>
+        I chose IT because I enjoy working with computers
+        and I want to improve my skills in coding and
+        problem-solving.
+    </p>
+</section>
+
+
+<hr>
+
+<section class="hobbies" id="hobbies">
+    <h2>My Hobbies:</h2>  
+  <ul>
+    <li>Playing Basketball</li>
+    <li>Watching Anime/Movies</li>
+    <li>Reading Books</li>
+    <li>Listening to Music(Oasis, Arctic Monkeys, OPM's)</li>
+    <li>Running</li>
+    <li>Hiking  </li>
+  </ul>
+</section>
+
+<hr>
+
+<section class="favorite" id="favorite">
+    <h2>Favorite Foods:</h2>
+    <ol>
+        <li>KFC CHICKEN</li>
+        <li>CHICKEN ADOBO</li>
+        <li>PORK ADOBO</li>
+        <li>CALDERETA</li>
+        <li>SINIGANG NA HIPON</li>
+        <li>WATERMELON</li>
+        <li>SISIG</li>
+    
+    </ol>
+</section>
+
+
+<hr>
+
+
+<div class="projects" id="projects">
+    <h2>My Projects:</h2>
+    
+    <article>
+        <h3>Project 1: Student Inventory</h3>    
+        <p>Inventory for students.</p>
+        <h3>Project 2: Language Learning App: Gamified</h3>    
+        <p>For students to learn english by playing a game.</p>
+        <h3>Project 3: Simple Calculator</h3>    
+        <p>Calculate simple equation</p>
+
+    </article>
+
+</div>
+
+<section class="badges" id="badges">
+    <h2>My Badges</h2>
+    <p>You can view my verified certificates on Credly.</p>
+
+    <a 
+        href="https://www.credly.com/users/gian-luis-huyag/edit#credly" 
+        target="_blank"
+        class="badge-btn">
+        View My Badges
+    </a>
+</section>
+
+
+<HR>
+
+    <footer class="contact" id="contact">
+        <h2>My Contact:</h2>
+        <p>Name: Gian Luis Huyag</p>
+        <p>Email: 0325-1221@lspu.edu.ph</p>
+        <p>Mobile Number: 09815096656</p>
+        <p>All rights reserved.</p>
+
+        <a 
+    href="https://www.facebook.com/" 
+    target="https://www.facebook.com/share/1LtgUJ4veW/"
+    class="fb-btn">
+    Visit my Facebook
+</a>
+
+
+
+  
+    </footer>
+
+    <script>
+function enterSite() {
+    const intro = document.getElementById("intro");
+    intro.style.opacity = "0";
+    intro.style.pointerEvents = "none";
+
+    setTimeout(() => {
+        intro.style.display = "none";
+    }, 800);
+}
+</script>
+
+</body>
+</html>
